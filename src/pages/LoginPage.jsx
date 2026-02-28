@@ -215,7 +215,7 @@ export default function LoginPage({ onLogin }) {
         <div className="login-page">
             <div className="login-card">
                 <div className="logo-section">
-                    <div className="login-logo">🏙️</div>
+                    <img src="/jallikattu-logo.png" alt="Clean Madurai Logo" className="login-logo" style={{ objectFit: 'contain', padding: '10px' }} />
                     <h2>{t('appName')}</h2>
                     <p>{t('loginSubtitle')}</p>
                 </div>

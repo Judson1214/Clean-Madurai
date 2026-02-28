@@ -24,7 +24,7 @@ export default function Sidebar({ isOpen, onClose, userRole }) {
             <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
                 <div className="sidebar-header">
                     <div className="sidebar-logo">
-                        <div className="logo-icon">🏙️</div>
+                        <img src="/jallikattu-logo.png" alt="Clean Madurai Logo" className="logo-icon" style={{ objectFit: 'contain', padding: '4px' }} />
                         <div>
                             <h1>{t('appName')}</h1>
                             <span className="subtitle">{t('appSubtitle')}</span>
